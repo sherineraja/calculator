@@ -1,0 +1,48 @@
+def addition(x,y):
+    z = x + y
+    print(z)
+def subtraction(x,y):
+    z = x - y
+    print(z)
+def multiplication(x,y):
+    z = x * y
+    print(z)
+def division(x,y):
+    z = x / y
+    print(z)
+def div(x,y):
+    z = x // y
+    print(z)
+def modulus(x,y):
+    z = x % y
+    print(z)
+def exponential(x,y):
+    z = x ** y
+    print(z)
+def squareroot(x):
+    z = x * 0.5
+    print(z)
+    
+
+x = input("Enter a number: ")
+y = input("Enter a number: ")
+n = input("Choose a number from 1 to 8 for what operation do you need to solve? ")
+
+if n == 1:
+    addition(x,y)
+elif n == 2:
+    subtraction(x,y)
+elif n == 3:
+    multiplication(x,y)
+elif n == 4:
+    division(x,y)
+elif n == 5:
+    div(x,y)
+elif n == 6:
+    modulus(x,y)
+elif n == 7:
+    exponential(x,y)
+elif n == 8:
+    squareroot(x)
+else:
+    print("Choose only 1 to 8")
